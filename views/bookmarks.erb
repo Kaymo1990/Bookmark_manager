@@ -1,0 +1,10 @@
+<h3>Bookmark</h3>
+<br />
+<%= @bookmarks.join(" ") %>
+<form action="/bookmarked" method="post">
+  <label for="entered_bookmark">
+    Enter your bookmark:
+    <input type="text" name="entered_bookmark">
+  </label>
+    <input type="submit" value="Submit">
+</form>
